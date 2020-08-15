@@ -1,0 +1,13 @@
+.container {
+    margin-top: 1rem;
+}
+
+.btn {
+    font-size: 1.7rem;
+}
+
+.todoItem {
+    border: 0.1rem solid blanchedalmond;
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
