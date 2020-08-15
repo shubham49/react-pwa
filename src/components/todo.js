@@ -1,6 +1,6 @@
 import * as React from 'react';
 import ToDoInput from './todoInput';
-import TodoList from './todoList';
+import TodoList from './toDoList';
 
 export default function () {
 
