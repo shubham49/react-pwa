@@ -16,7 +16,7 @@ export default function (props) {
 
 
     const onAddClick = () => {
-        props.onAdd(text);
+        props.onAdd({ id: Date.now(), text: text, complete: false });
         setText('');
     }
 
