@@ -29,6 +29,10 @@
       "name": "Ajay Patel",
       "email": "ajaypatel@atyantik.com",
       "url": "https://www.atyantik.com/"
+    },
+    {
+      "name": "Alexandre Nicolas",
+      "email": "a.nicolas.dev@gmail.com"
     }
   ],
   "license": "MIT",
