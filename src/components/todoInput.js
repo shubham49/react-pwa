@@ -16,8 +16,10 @@ export default function (props) {
 
 
     const onAddClick = () => {
-        props.onAdd(text);
-        setText('');
+        if(text){
+            props.onAdd(text);
+            setText('');
+        }
     }
 
     return (
@@ -29,7 +31,9 @@ export default function (props) {
                         onChange={onChange} onKeyDown={handleKeyDown} />
                 </div>
                 <div className="column">
-                    <button onClick={onAddClick} className={toDoStyles.btn}>+</button>
+                    <button onClick={onAddClick} className={toDoStyles.btn}
+                    disabled={!text}
+                    >+</button>
                 </div>
             </div>
         </div>
