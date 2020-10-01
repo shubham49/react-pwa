@@ -19,8 +19,9 @@ export default function (props) {
         // validating the text 
         if(text.length > 0){
             props.onAdd(text);
+            setText('');
         }
-        setText('');
+        
     }
 
     return (
