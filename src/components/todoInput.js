@@ -16,7 +16,10 @@ export default function (props) {
 
 
     const onAddClick = () => {
-        props.onAdd(text);
+        // validating the text 
+        if(text.length > 0){
+            props.onAdd(text);
+        }
         setText('');
     }
 
