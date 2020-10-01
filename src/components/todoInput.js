@@ -14,12 +14,8 @@ export default function (props) {
   const handleKeyDown = (event) => {
     // handling 'Enter' keydown events
     if (event.key === 'Enter') {
-      if (text.length === 0) {
-        setText('');
-      } else if (event.shiftKey === false && text.length > 0) { 
+      if (event.shiftKey === false && text.length > 0) { 
         onAddClick();
-      } else if (event.shiftKey === true) {
-        setText(text);
       }
     }
   };
@@ -46,7 +42,7 @@ export default function (props) {
           />
         </div>
         <div className="column">
-          <button onClick={onAddClick} className={toDoStyles.btn}>+</button>
+          <button type="button" onClick={onAddClick} className={toDoStyles.btn}>+</button>
         </div>
       </div>
     </div>
