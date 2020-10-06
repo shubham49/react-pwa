@@ -4,12 +4,16 @@
 
 .btn {
     font-size: 1.7rem;
+    width: 100%;
+    background-color: blanchedalmond;
+    border-radius: 0.4rem;
 }
 
 .todoItem {
     border: 0.1rem solid blanchedalmond;
+    border-radius: 0.4rem;
     margin: 0.2rem;
-    padding: 0.2rem;
+    padding: 0.6rem;
 }
 
 .item {
