@@ -25,6 +25,9 @@ export default function (props) {
           </div>
         ))}
       </div>
+      <div className="column">
+        <a href="javascript:void()" onClick={() => props.onDelete(props.items)}>Delete</a>
+      </div>
     </div>
   );
 }
