@@ -19,3 +19,8 @@
 .item {
     margin-left: 1rem;
 }
+
+input[type=checkbox] {
+    width: 2rem;
+    height: 1rem;
+}
